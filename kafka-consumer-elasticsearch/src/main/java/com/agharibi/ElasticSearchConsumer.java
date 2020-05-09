@@ -6,7 +6,6 @@ import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
@@ -25,6 +24,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
+
+import static org.apache.kafka.clients.consumer.ConsumerConfig.*;
 
 public class ElasticSearchConsumer {
 
@@ -56,11 +57,13 @@ public class ElasticSearchConsumer {
 
     public static KafkaConsumer<String, String> createConsumer(String topic) {
         Properties pros = new Properties();
-        pros.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVER_VALUE);
-        pros.setProperty(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        pros.setProperty(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
-        pros.setProperty(ConsumerConfig.GROUP_ID_CONFIG, GROUP_ID);
-        pros.setProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+        pros.setProperty(BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVER_VALUE);
+        pros.setProperty(KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
+        pros.setProperty(VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName());
+        pros.setProperty(GROUP_ID_CONFIG, GROUP_ID);
+        pros.setProperty(AUTO_OFFSET_RESET_CONFIG, "earliest");
+        pros.setProperty(ENABLE_AUTO_COMMIT_CONFIG, "false");
+        pros.setProperty(MAX_POLL_RECORDS_CONFIG, "10");
 
         KafkaConsumer<String, String> consumer = new KafkaConsumer<>(pros);
         consumer.subscribe(Arrays.asList(topic));
@@ -75,6 +78,7 @@ public class ElasticSearchConsumer {
 
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
+            logger.info("Received " + records.count() + " records.");
 
             for (ConsumerRecord<String, String> record : records) {
 
@@ -84,8 +88,12 @@ public class ElasticSearchConsumer {
 
                 IndexResponse response = client.index(indexRequest, RequestOptions.DEFAULT);
                 logger.info("Response id: " + response.getId());
-                Thread.sleep(1000);
+                Thread.sleep(100);
             }
+            logger.info("Committing the offsets..");
+            consumer.commitAsync();
+            logger.info("Offsets have been committed.");
+            Thread.sleep(2000);
         }
     }
 

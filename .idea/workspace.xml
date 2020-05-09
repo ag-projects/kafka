@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c6c26e0-768c-4940-b07f-b56a5605db34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../interview/src/pkg01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-05/src/main/java/com/agharibi/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../junit-05/src/test/java/com/agharibi/GreetingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/consumers/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/consumers/ConsumerAssignAndSeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/consumers/ConsumerGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/consumers/ConsumerWithThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/producers/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/producers/ProducerKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/agharibi/producers/ProducerWithCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com/agharibi/ElasticSearchConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-twitter/src/main/java/agharibi/twitter/TwitterProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka_commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/BeerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerDtoV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerStyleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/controllers/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/dao/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/java/com/agharibi/projectmanagement/entities/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/resources/templates/employees/new-employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/resources/templates/layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/resources/templates/main/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-management/src/main/resources/templates/projects/new-project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQ-projects/src/main/java/com/agharibi/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQ-projects/src/main/java/com/agharibi/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/ConsumerOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/ConsumerTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/RabbitMqConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/RabbitRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/direct/DirectConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/direct/DirectPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/fanout/FanoutConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/fanout/FanoutPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/header/HeaderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/header/HeaderPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/topic/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbits/src/main/java/com/agharibi/rabbitmqapp/exchanges/topic/TopicPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-service/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple-service/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-fundamentals/src/main/java/com/agharibi/springsecurity/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-docker-aws/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/SecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/persistence/InMemoryUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/persistence/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/web/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/web/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/test/java/com/agharibi/security/SecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/READ.ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/ThymeleafApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/test/java/com/agharibi/thymeleaf/ThymeleafApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1bcxDC7ekHrm35uhBw1xpWxf0g6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kafka-twitter/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-twitter/src/main/java" />
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java" />
+      <recent name="$PROJECT_DIR$/kafka-twitter-producer/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/java/com/agharibi" />
+      <recent name="$PROJECT_DIR$/kafka-basics/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ElasticSearchConsumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agharibi.consumers.Consumer" />
+      <module name="kafka-basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agharibi.consumers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerAssignAndSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.consumers.ConsumerAssignAndSeek" />
+      <module name="kafka" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.consumers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.ElasticSearchConsumer" />
+      <module name="kafka-consumer-elasticsearch" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agharibi.producers.Producer" />
+      <module name="kafka-basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agharibi.producers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.twitter.TwitterProducer" />
+      <module name="kafka" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.twitter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerAssignAndSeek" />
+      <item itemvalue="Application.TwitterProducer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.ElasticSearchConsumer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ElasticSearchConsumer" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.TwitterProducer" />
+        <item itemvalue="Application.ConsumerAssignAndSeek" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c6c26e0-768c-4940-b07f-b56a5605db34" name="Default Changelist" comment="" />
+      <created>1588945060113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588945060113</updated>
+      <workItem from="1588945064108" duration="11864000" />
+      <workItem from="1588984013270" duration="5129000" />
+      <workItem from="1589032986061" duration="6775000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1411" y="86" key="#Project_Structure" timestamp="1589050697359">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state x="-1411" y="86" key="#Project_Structure/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1589050697359" />
+    <state x="-1412" y="86" key="#Project_Structure/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589038034665" />
+    <state x="-1421" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588946933715">
+      <screen x="-1884" y="23" width="1884" height="1057" />
+    </state>
+    <state x="-1421" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588946933715" />
+    <state x="-1071" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1589040393723">
+      <screen x="-1884" y="23" width="1884" height="1057" />
+    </state>
+    <state x="-1071" y="231" key="#com.intellij.ide.util.MemberChooser/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589040393722" />
+    <state width="1767" height="602" key="GridCell.Tab.0.bottom" timestamp="1589051371568">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state width="1767" height="602" key="GridCell.Tab.0.bottom/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1589051371568" />
+    <state width="1767" height="136" key="GridCell.Tab.0.bottom/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589038200593" />
+    <state width="1767" height="136" key="GridCell.Tab.0.bottom/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589041317725" />
+    <state width="1767" height="602" key="GridCell.Tab.0.center" timestamp="1589051371567">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state width="1767" height="602" key="GridCell.Tab.0.center/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1589051371567" />
+    <state width="1767" height="136" key="GridCell.Tab.0.center/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589038200592" />
+    <state width="1767" height="136" key="GridCell.Tab.0.center/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589041317724" />
+    <state width="1767" height="602" key="GridCell.Tab.0.left" timestamp="1589051371567">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state width="1767" height="602" key="GridCell.Tab.0.left/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1589051371567" />
+    <state width="1767" height="136" key="GridCell.Tab.0.left/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589038200592" />
+    <state width="1767" height="136" key="GridCell.Tab.0.left/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589041317723" />
+    <state width="1767" height="602" key="GridCell.Tab.0.right" timestamp="1589051371568">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state width="1767" height="602" key="GridCell.Tab.0.right/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1589051371568" />
+    <state width="1767" height="136" key="GridCell.Tab.0.right/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589038200593" />
+    <state width="1767" height="136" key="GridCell.Tab.0.right/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589041317724" />
+    <state width="1767" height="316" key="GridCell.Tab.1.bottom" timestamp="1589036312327">
+      <screen x="-1883" y="23" width="1883" height="1057" />
+    </state>
+    <state width="1767" height="316" key="GridCell.Tab.1.bottom/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588973962634" />
+    <state width="1767" height="316" key="GridCell.Tab.1.bottom/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589036312327" />
+    <state width="1767" height="316" key="GridCell.Tab.1.bottom/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588947233213" />
+    <state width="1767" height="316" key="GridCell.Tab.1.center" timestamp="1589036312326">
+      <screen x="-1883" y="23" width="1883" height="1057" />
+    </state>
+    <state width="1767" height="316" key="GridCell.Tab.1.center/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588973962633" />
+    <state width="1767" height="316" key="GridCell.Tab.1.center/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589036312326" />
+    <state width="1767" height="316" key="GridCell.Tab.1.center/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588947233212" />
+    <state width="1767" height="316" key="GridCell.Tab.1.left" timestamp="1589036312326">
+      <screen x="-1883" y="23" width="1883" height="1057" />
+    </state>
+    <state width="1767" height="316" key="GridCell.Tab.1.left/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588973962633" />
+    <state width="1767" height="316" key="GridCell.Tab.1.left/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589036312326" />
+    <state width="1767" height="316" key="GridCell.Tab.1.left/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588947233212" />
+    <state width="1767" height="316" key="GridCell.Tab.1.right" timestamp="1589036312326">
+      <screen x="-1883" y="23" width="1883" height="1057" />
+    </state>
+    <state width="1767" height="316" key="GridCell.Tab.1.right/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588973962633" />
+    <state width="1767" height="316" key="GridCell.Tab.1.right/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589036312326" />
+    <state width="1767" height="316" key="GridCell.Tab.1.right/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588947233213" />
+    <state x="-1398" y="106" key="SettingsEditor" timestamp="1589037250092">
+      <screen x="-1883" y="23" width="1883" height="1057" />
+    </state>
+    <state x="-1397" y="106" key="SettingsEditor/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588984160178" />
+    <state x="-1398" y="106" key="SettingsEditor/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589037250092" />
+    <state x="-1398" y="106" key="SettingsEditor/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1588947080591" />
+    <state x="-1145" y="273" key="extract.method.dialog" timestamp="1588989669661">
+      <screen x="-1882" y="23" width="1882" height="1057" />
+    </state>
+    <state x="-1145" y="273" key="extract.method.dialog/-1882.23.1882.1057/0.23.1920.1057@-1882.23.1882.1057" timestamp="1588989669661" />
+    <state x="-1146" y="273" key="extract.method.dialog/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1588951113988" />
+    <state x="-1477" y="167" key="new project wizard" timestamp="1589039939222">
+      <screen x="-1884" y="23" width="1884" height="1057" />
+    </state>
+    <state x="-1476" y="167" key="new project wizard/-1883.23.1883.1057/0.23.1920.1057@-1883.23.1883.1057" timestamp="1589037888646" />
+    <state x="-1477" y="167" key="new project wizard/-1884.23.1884.1057/0.23.1920.1057@-1884.23.1884.1057" timestamp="1589039939222" />
+  </component>
+</project>

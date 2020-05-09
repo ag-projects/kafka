@@ -1,11 +1,11 @@
 package com.agharibi;
 
 
+import com.google.gson.JsonParser;
 import org.apache.http.HttpHost;
 import org.apache.http.auth.AuthScope;
 import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.impl.client.BasicCredentialsProvider;
-import org.apache.http.impl.nio.client.HttpAsyncClientBuilder;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -39,6 +39,8 @@ public class ElasticSearchConsumer {
     private static final String hostname = "***************************";
     private static final Logger logger = LoggerFactory.getLogger(ElasticSearchConsumer.class.getName());
 
+    private static JsonParser jsonParser = new JsonParser();
+
     public static RestHighLevelClient createClient() {
 
         final BasicCredentialsProvider credentialsProvider = new BasicCredentialsProvider();
@@ -46,11 +48,8 @@ public class ElasticSearchConsumer {
 
         RestClientBuilder builder = RestClient
             .builder(new HttpHost(hostname, PORT, SCHEME))
-            .setHttpClientConfigCallback(new RestClientBuilder.HttpClientConfigCallback() {
-                public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpAsyncClientBuilder) {
-                    return httpAsyncClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
-                }
-            });
+            .setHttpClientConfigCallback(httpAsyncClientBuilder ->
+                httpAsyncClientBuilder.setDefaultCredentialsProvider(credentialsProvider));
 
         return new RestHighLevelClient(builder);
     }
@@ -77,19 +76,20 @@ public class ElasticSearchConsumer {
         while (true) {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
 
-            for (ConsumerRecord<String, String> recored : records) {
+            for (ConsumerRecord<String, String> record : records) {
 
-                IndexRequest indexRequest = new IndexRequest("twitter", "tweets");
-                indexRequest.source(recored.value(), XContentType.JSON);
+                String id = extractTwitterId(record.value());
+                IndexRequest indexRequest = new IndexRequest("twitter", "tweets", id);
+                indexRequest.source(record.value(), XContentType.JSON);
 
                 IndexResponse response = client.index(indexRequest, RequestOptions.DEFAULT);
-                String responseId = response.getId();
-                logger.info("Response id: " + responseId);
-
+                logger.info("Response id: " + response.getId());
                 Thread.sleep(1000);
-
             }
         }
+    }
 
+    private static String extractTwitterId(String tweet) {
+        return jsonParser.parse(tweet).getAsJsonObject().get("id_str").getAsString();
     }
 }
